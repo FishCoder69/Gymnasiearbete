@@ -1,5 +1,5 @@
 import pandas as pd
-from utils import check_win, get_last_season_pos
+from Utils import check_win, get_last_season_pos
 
 """Code to get and Merge all gameweek data for all players since 2016/17 season"""
 
@@ -84,4 +84,4 @@ for i, year in enumerate(years):
 
 
 all_data = pd.concat(list_dfs)
-all_data.to_csv("datasets/previous_seasons.csv")
+all_data.to_csv("Data/previous_seasons.csv")

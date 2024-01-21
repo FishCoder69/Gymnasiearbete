@@ -1,4 +1,4 @@
-from config import *
+from Config import *
 import numpy as np
 import pandas as pd
 from scipy import stats
